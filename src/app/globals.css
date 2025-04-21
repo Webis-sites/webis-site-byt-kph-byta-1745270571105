@@ -9,7 +9,19 @@
       --background-end-rgb: 255, 255, 255;
       --primary-color: #FF6B6B;
       --secondary-color: #588C7E;
-    }
+    
+  --background-color: #f5f5f5;
+  --text-color: #333333;
+  --accent-color: #FFD166;
+  --border-radius: 1rem;
+  --shadow-sm: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #FFFFFF;
+  --shadow-md: 0.5rem 0.5rem 1rem #c8d0e7, -0.3rem -0.3rem 0.8rem #FFFFFF;
+  --shadow-lg: 0.8rem 0.8rem 1.4rem #c8d0e7, -0.4rem -0.4rem 1rem #FFFFFF;
+  --glass-background: rgba(255, 255, 255, 0.25);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.18);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  --glass-blur: blur(4px);
+}
 
     html {
       scroll-behavior: smooth;
