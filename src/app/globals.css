@@ -41,6 +41,9 @@
 
   --border-radius-xl: 2rem;
   --glass-bg: rgba(255, 255, 255, 0.15);
+
+  --box-shadow: 5px 5px 10px rgba(0,0,0,0.05), -5px -5px 10px rgba(255,255,255,0.8);
+  --inner-shadow: inset 3px 3px 6px rgba(0,0,0,0.1), inset -3px -3px 6px rgba(255,255,255,0.7);
 }
 
     html {
