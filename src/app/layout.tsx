@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Rubik } from 'next/font/google'
 import './globals.css'
+import Navbar from '@/components/Navbar';
 
 // Configure the Rubik font with Hebrew support
 const rubik = Rubik({
@@ -82,6 +83,7 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-gray-50 text-gray-900 text-right min-h-screen">
+        <Navbar />
         <div className="container mx-auto px-4 py-8 max-w-7xl">
           <main className="neumorphic-container rounded-2xl p-6 md:p-8 backdrop-blur-sm bg-white/80 border border-white/20 shadow-xl">
             {children}
