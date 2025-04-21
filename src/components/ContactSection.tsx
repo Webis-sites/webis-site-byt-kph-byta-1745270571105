@@ -107,7 +107,7 @@ const ContactSection: React.FC = () => {
                           }
                         })}
                         className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#588C7E] text-right shadow-inner"
-                        placeholder="הכנס את כתובת הדוא\"ל שלך"
+                        placeholder="הכנס את כתובת הדואל שלך"
                       />
                       {errors.email && (
                         <p className="text-red-500 text-sm text-right">{errors.email.message}</p>
@@ -214,26 +214,6 @@ const ContactSection: React.FC = () => {
         </div>
       </div>
       
-      <style jsx>{`
-        .shadow-neumorphic {
-          box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.05), 
-                      -8px -8px 16px rgba(255, 255, 255, 0.8);
-        }
-        
-        .shadow-neumorphic-button {
-          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), 
-                      -4px -4px 8px rgba(255, 255, 255, 0.1);
-        }
-        
-        .shadow-inner {
-          box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.05), 
-                      inset -2px -2px 5px rgba(255, 255, 255, 0.5);
-        }
-        
-        .dir-rtl {
-          direction: rtl;
-        }
-      `}</style>
     </section>
   );
 };
